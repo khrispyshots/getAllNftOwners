@@ -9,9 +9,9 @@ console.log(key)
     redirect: 'follow'
   };
   const walletAddresses=[];
-  const apiKey = "demo"
-  const baseURL = `https://eth-mainnet.alchemyapi.io/nft/v2/${key}/getOwnersForCollection`;
-  const contractAddr = "0x8c1fe24d93e26f241fb1c9b432e2c5c6fe3c1a31";
+  const apiKey = "wRHdV3DbjKP9JSAUFiTEuezb1TCAaxgC"
+  const baseURL = `https://polygon-mainnet.g.alchemy.com/${key}/getOwnersForCollection`;
+  const contractAddr = "0xDb46d1Dc155634FbC732f92E853b10B288AD5a1d";
   const fetchURL = `${baseURL}?contractAddress=${contractAddr}`;
 
  
